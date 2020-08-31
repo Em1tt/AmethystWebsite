@@ -1,0 +1,135 @@
+.bodyClass {
+    background-color: #0a0a0a;
+}
+
+@font-face {
+    font-family: Aileron;
+    src: url(/fonts/Aileron-Black.otf);
+}
+@font-face {
+    font-family: Consolas;
+    src: url(/fonts/consola.ttf);
+}
+#img {
+    filter: brightness(80%);
+}
+#img:hover {
+    filter: brightness(100%);
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    animation: fadein 0.5s;
+    cursor: pointer;
+}
+#logo {
+    filter: brightness(80%);
+}
+#logo:hover {
+    filter: brightness(100%);
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+    from {
+        filter: brightness(80%);
+    }
+    to {
+        filter: brightness(100%);
+    }
+}
+
+.header {
+    font-family: Aileron;
+    font-weight: bold;
+    font-size: 6vw;
+    background-color: #e7e7e7;
+    color: #242424;
+}
+.Dynmap{
+    object-fit: cover;
+    max-height: 256px;
+}
+.logoBG{
+    background-color: #000;
+}
+.logo{
+    max-height: 12vw;
+    max-width: 12vw;
+    width: 12vw;
+    height: 12vw;
+    display: block;
+    justify-content: center;
+}
+html {
+    scroll-behavior: smooth;
+}
+.paragraph{
+    color: #e7e7e7;
+    font-family: Aileron;
+    font-weight: bold;
+    font-size: 32px;
+    text-decoration: none;
+}
+.dynmap{
+    height: 96vh;
+}
+#myBtn{
+    height: 12vw;
+    width: 12vw;
+    border-radius: 50%;
+    display: inline-block;
+    position: fixed;
+    z-index: 1;
+    right: 30px;
+    bottom: 20px;
+    filter: brightness(80%);
+}
+#myBtn:hover{
+    filter: brightness(100%);
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    animation: fadein 0.5s;
+}
+#myBtnDynmap{
+    height: 12vw;
+    width: 12vw;
+    border-radius: 50%;
+    display: inline-block;
+    position: fixed;
+    z-index: 1;
+    left: 30px;
+    bottom: 20px;
+    filter: brightness(80%);
+}
+#myBtnDynmap:hover{
+    filter: brightness(100%);
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    animation: fadein 0.5s;
+}
+.code{
+    background-color:#212121;
+    font-family: Consolas;
+    color:#ff75f6;
+}
+.hypertext{
+    color: #ff75f6;
+    text-decoration: underline;
+    text-decoration-color: #ff75f6;
+}
+.hypertext:hover{
+    color: #ff99f8;
+    text-decoration-color: #ff99f8;
+}
+.highlight{
+    color: #ff75f6;
+}
