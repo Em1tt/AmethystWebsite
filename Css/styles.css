@@ -46,9 +46,25 @@
 .header {
     font-family: Aileron;
     font-weight: bold;
-    font-size: 6vw;
+    font-size: 7vw;
     background-color: #e7e7e7;
     color: #242424;
+}
+.header:hover{
+    cursor: default;
+}
+.paragraph:hover{
+    cursor: default;
+}
+.header2 {
+    font-family: Aileron;
+    font-weight: bold;
+    font-size: 5vw;
+    color: #e7e7e7;
+    text-decoration: underline;
+}
+.header2:hover{
+    cursor: default;
 }
 .Dynmap{
     object-fit: cover;
@@ -97,25 +113,6 @@ html {
     -o-animation: fadein 2s;
     animation: fadein 0.5s;
 }
-#myBtnDynmap{
-    height: 12vw;
-    width: 12vw;
-    border-radius: 50%;
-    display: inline-block;
-    position: fixed;
-    z-index: 1;
-    left: 30px;
-    bottom: 20px;
-    filter: brightness(80%);
-}
-#myBtnDynmap:hover{
-    filter: brightness(100%);
-    -webkit-animation: fadein 2s;
-    -moz-animation: fadein 2s;
-    -ms-animation: fadein 2s;
-    -o-animation: fadein 2s;
-    animation: fadein 0.5s;
-}
 .code{
     background-color:#212121;
     font-family: Consolas;
@@ -129,7 +126,24 @@ html {
 .hypertext:hover{
     color: #ff99f8;
     text-decoration-color: #ff99f8;
+    cursor: pointer;
 }
 .highlight{
     color: #ff75f6;
+}
+.optional{
+    color: #bc75ff;
+}
+.hypertext2{
+    color: #EF6079FF;
+    text-decoration: underline;
+    text-decoration-color: #EF6079FF;
+}
+.hypertext2:hover{
+    color: #ff8095;
+    text-decoration-color: #ff8095;
+    cursor: pointer;
+}
+.no-pointer:hover{
+    cursor: default;
 }
