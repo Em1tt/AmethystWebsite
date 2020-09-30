@@ -26,3 +26,6 @@
     color: green;
     background-color: green;
 }
+.button:hover{
+    color: pink;
+}
