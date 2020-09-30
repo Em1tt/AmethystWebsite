@@ -1,13 +1,17 @@
 .bodyClass{
     background-image:url('/7.png');
-    overflow: hidden;
 }
 .background{
     background: rgba(0, 0, 0, 0.7);
-    overflow: hidden;
 }
 .white{
-    color: rgb(228, 228, 228)
+    color: rgb(228, 228, 228);
+}
+.header{
+    font-size: 4vw;
+}
+.paragraph{
+    font-size: 3vw;
 }
 .customul{
     list-style-type: none;
@@ -18,14 +22,11 @@
 .navbar{
     margin: 0;
     padding: 0;
-    height: 75px;
+    height: 6vh;
     background-color: green;
     overflow: hidden;
 }
 .active{
     color: green;
     background-color: green;
-}
-.button:hover{
-    color: pink;
 }
