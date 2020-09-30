@@ -1,5 +1,6 @@
 .bodyClass{
     background-image:url('/10.mp4');
+    overflow: hidden;
 }
 .background{
     background: rgba(0, 0, 0, 0.7);
