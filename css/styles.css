@@ -1,10 +1,22 @@
 .bodyClass{
   background-color: rgb(255, 255, 255);
     background-image: url('/Assets/MainBackground.jpg');
+    background-attachment: fixed;
 }
 .bodyClassVerify{
   background-color: rgb(255, 255, 255);
     background-image: url('/Assets/VerificationBackground.jpg');
+    background-attachment: fixed;
+}
+.bodyClassTOS{
+  background-color: rgb(255, 255, 255);
+    background-image: url('/Assets/TosBackground.jpg');
+    background-attachment: fixed;
+}
+.bodyClassTweaks{
+  background-color: rgb(255, 255, 255);
+    background-image: url('/Assets/TweaksBackground.jpg');
+    background-attachment: fixed;
 }
 .background{
     background: rgba(0, 0, 0, 0.7);
